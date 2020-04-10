@@ -1,0 +1,86 @@
+<html lang="en-us">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <nav class="grey darken-4"> 
+        <div class="nav-wrapper">
+          <a href="#" id="brand-logo">Password Generator</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/tips.html">Tips</a></li>
+          </ul>
+        </div>
+    </nav>
+</head>
+<body class="blue-grey lighten-1">
+    <div class="card-panel grey lighten-4">
+        <div class="input-field inline" id="passwordDiv">
+            <input placeholder="Password" id="passwordText" type="text" class="validate" value="">
+            <label for="passwordText">Password</label>
+        </div>
+    
+        <button onclick="copy(), copyStyle()" id="copy" class="waves-effect waves-light btn"><i id="copyIg" class="material-icons right">content_copy</i>Copy</button>
+    </div>
+
+    <div class="card-panel grey lighten-5">
+    <div class="input-field col s12">
+        <input type="number" id="sizeNumber" value="16" class="validate">
+        <label for="sizeNumber">Password Size</label>
+        <span class="helper-text" data-error="Put a number!"></span>
+    </div>
+    </div>
+    <div id="options" class="card-panel grey lighten-4">
+    <span id="efx"><h6>Options</h6></span>
+    <form action="#">
+        <p>
+            <label><input type="checkbox" id="uppercase" class="filled-in" checked="checked" checked/><span>Uppercase </span></label>
+        </p>
+    </form>
+    <form action="#">
+        <p>
+            <label><input type="checkbox" id="lowercase" class="filled-in" checked="checked" checked/><span>Lowercase</span></label>
+        </p>
+    </form>
+    <form action="#">
+        <p>
+            <label><input type="checkbox" id="numbers" class="filled-in" checked="checked" checked/><span>Numbers</span></label>
+        </p>
+    </form>
+    <form action="#">
+        <p>
+            <label><input type="checkbox" id="symbols" class="filled-in" checked="checked" checked/><span>Symbols</span></label>
+        </p>
+    </form>
+    <button onclick="verify(), generate(), normal()" id="generate" class="waves-effect waves-light btn">Generate</button>
+    <br>
+    </div>
+
+    <div class="card-panel grey lighten-4">
+        <p>This website is designed for: generate password, gerar senha, generar contraseña, generateur mot de passe, パスワード生成.</p>
+        <p></p>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+
+    <!-- PasswordGenerator -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="fluid"
+         data-ad-layout-key="-6t+ed+2i-1n-4w"
+         data-ad-client="ca-pub-3392460884019561"
+         data-ad-slot="1090029000"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div>
+</body>
+</html>
