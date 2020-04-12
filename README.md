@@ -1,4 +1,4 @@
-# Password Generator:closed_lock_with_key: 
+# :closed_lock_with_key:Password Generator
 This project is designed for generate password.
 ## Website
 [Password Generator](https://zmizuky.github.io/password_generator/)
