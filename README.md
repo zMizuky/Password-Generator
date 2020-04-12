@@ -1,7 +1,7 @@
 # Password Generator
 This project is designed for generate password.
 ## Website
-[Password Generator]https://zmizuky.github.io/password_generator/
+[Password Generator](https://zmizuky.github.io/password_generator/)
 ## Authors
 **Ian Cristhian** - [Mizuky](https://github.com/zMizuky)
 ## License
