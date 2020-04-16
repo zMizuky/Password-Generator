@@ -2,7 +2,7 @@
 This project is designed for generate password.
 100% Javascript and HTML
 ## Website
-[Password Generator](https://zmizuky.github.io/password_generator/)
+[Password Generator](https://zmizuky.github.io/Password-Generator/)
 ## Authors
 **Ian Cristhian** - [Mizuky](https://github.com/zMizuky)
 ## License
