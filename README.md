@@ -1,5 +1,6 @@
 # :closed_lock_with_key:Password Generator
 This project is designed for generate password.
+100% Javascript and HTML
 ## Website
 [Password Generator](https://zmizuky.github.io/password_generator/)
 ## Authors
